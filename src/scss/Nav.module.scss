@@ -1,0 +1,87 @@
+.inner {
+    flex: 1;
+    padding: calc(var(--rem)) 0;
+}
+.logo {
+    width: 15%;
+    min-width: 150px;
+}
+.ul {
+    width: 50%;
+    list-style-type: none;
+    font-size: calc(var(--rem));
+    font-family: "Nunito";
+    font-weight: 300;
+    gap: calc(var(--rem) * 1.5);
+}
+.ulactive{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%) !important;
+}
+.li {
+    cursor: pointer;
+    position: relative;
+}
+.lbtn {
+    width: 35%;
+    gap: calc(var(--rem) * 0.6);
+    cursor: pointer;
+    justify-content: flex-end;
+    font-family: "nunito";
+    font-size: calc(var(--rem));
+}
+.login {
+    font-weight: 500;
+}
+.signup {
+    cursor: pointer;
+    * {
+        pointer-events: none;
+    }
+    &:active {
+        box-shadow: #44cd7b 5px 5px 5px;
+    }
+    img {
+        padding: calc(var(--rem) * 0.5) calc(var(--rem) * 0.4);
+    }
+    background: linear-gradient(107.65deg, #44cd7b 47.59%, rgba(68, 205, 148, 0.69) 105.24%);
+}
+.stext {
+    padding: calc(var(--rem) * 0.5) calc(var(--rem) * 1);
+    background: linear-gradient(103.42deg, rgba(44, 45, 50, 0.8) 0.88%, rgba(44, 45, 50, 0.2) 100%),
+        linear-gradient(0deg, #1d1e22, #1d1e22);
+    border-radius: 0 calc(var(--rem)) 0 0;
+    font-weight: 600;
+}
+.mobile {
+    display: none;
+    flex: 1;
+    gap: calc(var(--rem) * 0.2);
+    justify-content: flex-end;
+    div {
+        width: calc(var(--rem) * 2.5);
+    }
+}
+.menu{
+    position: relative;
+}
+@media screen and (max-width: 768px) {
+    .lbtn {
+        display: none;
+    }
+    .ul{
+        transition:.8s all cubic-bezier(0.2, 0.8, 0.2, 1);
+        animation: dtp .8s ease-in-out;
+        position: fixed;
+        width: 100%;
+        height:100%;
+        top: 0;
+        left:0;
+        background:#37383f;
+        flex-direction: column;
+        font-size: calc(var(--rem)*5);
+        clip-path: polygon(0% 0%, 0% 0%, -22% 67%, 0% 100%);
+    }
+    .mobile {
+        display: flex;
+    }
+}

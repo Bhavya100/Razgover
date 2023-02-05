@@ -1,0 +1,112 @@
+.sec {
+    position: relative;
+    margin-top: calc(var(--rem)*4);
+}
+.accents{
+    position: absolute;
+}
+.accents:nth-child(1){
+    top: 20%;
+    left:4%;
+}
+.accents:nth-child(2){
+    top: 75%;
+    left:0%;
+}
+.arrowsec{
+    position: absolute;
+    top: 55%;
+}
+.wave {
+    // position: absolute;
+    width: 100%;
+    max-height: 150px;
+    overflow: hidden;
+}
+.innerWrap {
+    width: 100%;
+    background: var(--bdark);
+}
+.inner {
+    position: relative;
+    z-index: 2;
+}
+.head {
+    width: 100%;
+    margin-top: calc(var(--rem)*4);
+    span {
+        font-family: "Poppins";
+        font-weight: 600;
+        position: relative;
+        font-size: calc(var(--rem) * 1.5);
+        &::after{
+            content: " ";
+            position: absolute;
+            width: 20%;
+            height: 20%;
+            background: var(--tintGreen2);
+            border-radius: var(--rem);
+            bottom: -10%;
+            right: 0%;
+        }
+    }
+}
+.cirAnim {
+    position: absolute;
+    aspect-ratio: 1;
+    width: calc(var(--rem) * 10);
+    transform: translate(-45%, -37%);
+}
+.cards{
+    flex-wrap: wrap;
+    width: 80%;
+    position: relative;
+    justify-content: space-around;
+    margin: calc(var(--rem) *4) auto;
+    
+}
+.card{
+    max-width: 280px;
+    position: relative;
+    .arrow{
+        position: absolute;
+        top: 25%;
+        left: 72%;
+    }
+    .head{
+        border: 2px solid var(--faded);
+        position: relative;
+        background-color: var(--bdark);
+        padding: calc(var(--rem)*.8) calc(var(--rem)*1.8);
+        gap: calc(var(--rem)*.6);
+        h3{
+            font-family: Alba;
+            font-size: calc(var(--rem)*1.66);
+            font-weight: 500;
+        }
+        .logo{
+            width: 22%;
+        }
+    }
+    .dets{
+        background: linear-gradient(143.76deg, rgba(42, 45, 52, 0.8) -0.74%, rgba(42, 45, 52, 0.15) 98.74%);
+        padding:calc(var(--rem)*1.8);
+        gap: calc(var(--rem));
+        p{
+            font-family: Nunito;
+            font-weight: 300;
+            font-size: calc(var(--rem)*.88);
+            span{
+                color: var(--tintGreen2);
+                font-weight: 500;
+            }
+        }
+        .det{
+            gap: calc(var(--rem)*.4);
+            .logo{
+                width: 25%;
+                height: 100%;
+            }
+        }
+    }
+}

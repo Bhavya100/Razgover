@@ -1,0 +1,109 @@
+.box{
+    display: flex;
+    aspect-ratio:1.5;
+    background: purple;
+    // max-width: 500px;
+    width: 100%;
+    min-width: 350px;
+    position: relative;
+    border: 3px solid var(--green);
+    background: linear-gradient(181.77deg, #000000 -3.49%, rgba(0, 0, 0, 0) 26.76%, rgba(0, 0, 0, 0) 42.82%), linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 26.81%), linear-gradient(113.09deg, rgba(68, 205, 123, 0.0405) 0%, rgba(68, 205, 123, 0.01) 100.63%), linear-gradient(180deg, rgba(45, 47, 53, 0.8) 0%, rgba(45, 47, 53, 0.2) 100%);
+    video{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        // object-fit: cover;
+        background: black;
+        z-index: 0;
+    }
+}
+.inner{
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    padding: var(--rem);
+    z-index: 1;
+}
+
+.noVideo{
+   position: absolute;
+    width: 100%;
+    height: 100%;
+    //Write the code for No video
+}
+
+.namePlate{
+    gap:  calc(var(--rem)*.5);
+    h4{
+        font-family:"Nunito";
+        font-weight: 600;
+        font-size: calc(var(--rem));
+    }
+}
+.verified{
+    width:5%;
+}
+.profile{
+    width:8%;
+}
+.timePlate{
+    font-family: "Nunito";
+    gap:  calc(var(--rem)*.2);
+    .ctd{
+        width: 5%;
+    }
+    h4{ 
+        font-weight: 600;
+        font-size: calc(var(--rem));
+    }
+    .dot{
+        aspect-ratio: 1;
+        background: #232B34;
+        width: calc(var(--rem)*.55);
+        border-radius: 100%;
+    }
+    span{
+        font-size: calc(var(--rem)*.8);
+        font-family: 500;
+    }
+    span:nth-child(1){
+        color: var(--brightGreen);
+    }
+}
+
+.noopacity{
+    opacity: 0;
+}
+
+.profileabs{
+    position: relative;
+    aspect-ratio: 1;
+    width: 18%;
+    &::after{
+        content: " ";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: var(--dark);
+        opacity: 0.3;
+        border-radius: 100%;
+        z-index: 2;
+    }
+    .cutlogo{
+        position: absolute;
+        width: 40%;
+        z-index: 3;
+    }
+    .pprof{
+        position:relative;
+        z-index: 1;
+    }
+}
+
+#vc{
+    opacity: 1;
+}

@@ -1,70 +1,38 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Razgover Connect
+Razgover is a website that connects two strangers in a secure and elegant way. With its sleek design and user-friendly interface, Razgover provides an enjoyable and safe way to connect with new people from all over the world.
 
-## Available Scripts
+Free To use.
 
-In the project directory, you can run:
+## Upcoming updates
+- Login and signUp page.
+- Login management in Backend.
+- Improved User interface
 
-### `npm start`
+## Screen Shot
+![Screenshot image](https://lh3.googleusercontent.com/fife/AMPSemfX9AX6aUDX_e90wZCr1wcJfOe8sRJkv7zQrn_TNZFvSmDhz-id15aLfE9vgJLJGTQzi0QeG0LbyoRSGjLFWERktUomo8dQS6qn2n7aOmCdCsbPgOSR1Udn5aMQhFlFfijoi_pIeOnOlHwwR1uf-UiYczESsOKMaHhzGd4Pa8EiVdYcjU4pnqYuBDSRhJw77UKppPJR9Wh0tV09ekeJgrNCd47LmAVRjQmWN4-m_fjk-xClct1JIq0a9wC65kDjDsWSF3epKu9mJlvBvfI6yufqZFYsxgXz0KRKaUdCWh_xKf2UOXj0lu2MUc90xIx0moSV3dDcrXV8UIdCGCik87vB5LHY83Lqph0v-KNuVuFL0cklmbGIVHjyFsswUafGW7I2XbwtrfsiySiZrF34ZT-Ewc7g8Kd9WktKBL-ZijImzufRmvTRX0jov-ACT6bi6dVhKh2YcaGGWg-GhSXl7RVIRNK9i7NEZyFzWHu0NbsPSwwFTNoqnTYwh3mhmduQt5mHSfwY51kRJMBhY7wKXYRD3QC4wmeJfW5Mdp6j_C6UHubt9S-jpPH18M5107C4cBIJDpYL-q_Ww4ddPp50BI1B2DaZV6yNGSUxOjLIkyiHt3W5rsx7KZvsVk8tUcTFdKudo4Qs0mxbg_F2mVXxvXMsGCDnh0zx2Y-Bes50030bzmjRRQ4p9DA59J7Pyt0YPiOeo7CKOGAjdzQhYSdSL9jbbWHbUS3ZNiKYDMDHGsa7UNOe9CojNPLYC4_GWmDNVzS4GRQ-xFTZY17UPC9qDp7tK1Bvy-4JlgfRpyUl8qBv_4OvQNVe4A_LUOvW-4LaMZ11F4lAX1HeIlK4KdP4w60mBzi_AtwKD8Lb81AR2Y5WGJZ-dGaAh-CzlAIYtl_d19L8TtPyQxkDkPSphXBj3ryQFoIROvpHJHwPMT1hBO6odAGwX4QlvHco0m0_R80ds9e_QEl1sgmPvil62qucuClOLDfKjjRR2TYB_RQuKBLjJ2CDG7r4FIl_So7umCPnQn8sjh0xZrXaiMQrr2dVQQf5v_ScNHAr-5lvpls012z9adcs4b_Tb5DZovkDixnTibMytRDEUmyXWsBSpMjChDu1xAOgWWJh8vqUsn91rUHqIzD9cQfeDEJdejC7S0N-WMjq6HC3xLZnuivJl_5AvDluEY6wJIfac--pssYPyMu2hqmy-xb87DQsMcOxtPB_Te7LWMPHcxpjQyQg4fmT4hMkAw8rit3YdLQ5O59ImcRPN4i3W_fapDsfv-rnryGEgrKvRfD8L342OZybpWCZacKIJIKH2fWP_eSejKjIlwTYRjkjrexgZ89NnfE2HvM2EtrSp1Oi0V1Wt95UsX5ySY1ytCEKr19pm05vXnhp8rx4EPNu9xAWZj96cg3hgZYbkODfYZNq9B04wa0EcJ8cbdbRUZApQWBgROK1cUpP5GG1gmWi7eQC_FUZpnmraLzOsfAYyuxF6m35SvwLWVl239xFCVtakj2OZ18FjcZVm1p9OZDxZGJ1wnt9VkLg-OvZDJGEdBy4nYODy3SC9o4LLNIo0fz8YySSofC3cxR7wxPj959kEaJpNXW1m41k2z50tA=w1920-h929)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Clone 
+Use this command to clone this template into your PC..
+```bash
+git clone https://github.com/tanaymishra/Razgover
+```
+## Contributing
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Contributions are always appreciated!
+No rules..
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Authors
 
-### `npm run build`
+- [@tanaymishra](https://www.github.com/tanaymishra)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Feedback
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you have any feedback or query, please reach out to us at tanaymishra2204@gmail.com
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Client:** React, Javascript, SASS and maybe some libraries i forgot..

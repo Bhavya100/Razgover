@@ -1,0 +1,37 @@
+.footer{
+    background-color: var(--footer);
+}
+.inner{
+    padding: calc(var(--rem)*.6) 0;
+    justify-content: space-between;
+    .copyright,.pages{
+        flex: 1;
+    }
+    .copyright{
+        gap: calc(var(--rem)*.4);
+        .img{
+            width: 5%;
+            min-width: 30px;
+        }
+        p{
+            font-family: Poppins;
+            font-weight: 500;
+            font-size: calc(var(--rem)*.8);
+        }
+    }
+    .pages{
+        justify-content: flex-end;
+        gap: calc(var(--rem)*1);
+        .img{
+            width: 100%;
+        }
+        p{
+            font-family: Nunito;
+            font-size: var(--rem);
+            font-weight: 400;
+            span{
+                color: var(--tintGreen2);
+            }
+        }
+    }
+}

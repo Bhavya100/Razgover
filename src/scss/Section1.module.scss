@@ -1,0 +1,244 @@
+.sub {
+    flex: 1;
+    position: relative;
+    z-index: 2;
+}
+.inner{
+    flex-wrap: wrap;
+}
+.sec{
+    margin-top: calc(var(--rem) * 3);
+}
+.text {
+    h5:nth-child(1) {
+        font-family: "Poppins";
+        font-size: var(--rem);
+        font-weight: 500;
+        color: var(--fadedText);
+    }
+    h2 {
+        font-family: "Poppins";
+        font-size: calc(var(--rem) * 2);
+        font-weight: 700;
+        span {
+            font-family: "alba";
+            font-weight: 500;
+            color: var(--green);
+        }
+    }
+    h5:nth-child(3) {
+        font-size: var(--rem);
+        font-family: "Nunito";
+        font-weight: 400;
+        color: var(--fadedText);
+        span {
+            color: var(--tintGreen);
+            font-weight: 500;
+            cursor: pointer;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+.search {
+    gap: calc(var(--rem) * .5);
+    margin: calc(var(--rem) * 2) 0;
+    h3 {
+        font-family: "poppins";
+        font-size: calc(var(--rem) * 1.3);
+        font-weight: 500;
+    }
+}
+.form {
+    border-radius: 20rem 0 0 20rem;
+    width: 60%;
+    max-width: 580px;
+    background: linear-gradient(130.17deg, #313438 35.66%, rgba(49, 52, 56, 0.2) 78.09%);
+    input {
+        background: transparent;
+        border: none;
+        outline: none;
+        color: var(--w);
+    }
+}
+.wrapper {
+    padding: calc(var(--rem) * 0.6);
+    gap: calc(var(--rem) * 0.6);
+}
+.key {
+    background: linear-gradient(180deg, #1d2125 0%, rgba(29, 33, 37, 0.5) 100%);
+    font-family: "Nunito";
+    border-radius: 20rem;
+    padding: calc(var(--rem) * 0.3) calc(var(--rem) * 1);
+    gap: calc(var(--rem) * 0.3);
+    span {
+        font-weight: 500;
+        font-size: calc(var(--rem) * 0.85);
+    }
+}
+.searchBox {
+    position: relative;
+    button {
+        padding: calc(var(--rem) * 0.4) calc(var(--rem) * 1.6);
+        font-family: alba;
+        font-size: calc(var(--rem) * 1.2);
+        color: white;
+        background-color: transparent;
+        border: none;
+        border-radius: 0 20rem 20rem 0;
+        overflow: hidden;
+        position: relative;
+        span {
+            position: relative;
+            z-index: 3;
+        }
+        &::before {
+            content: " ";
+            position: absolute;
+            width: 90%;
+            height: 90%;
+            background: linear-gradient(121.48deg, #44cd7b 16.56%, #44cd7b 16.57%, #4cd79c 85.16%);
+            top: 5%;
+            left: 5%;
+            z-index: 1;
+            border-radius: 80%;
+        }
+        &::after {
+            content: " ";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+            top: 0%;
+            left: 0%;
+            backdrop-filter: blur(11px);
+        }
+    }
+}
+.arrow {
+    position: absolute;
+    z-index: 4;
+    left: 55%;
+    width: auto;
+    height: auto;
+}
+
+.chat {
+    gap: var(--rem);
+    h3 {
+        font-family: "poppins";
+        font-size: calc(var(--rem) * 1.3);
+        font-weight: 500;
+    }
+    h5 {
+        font-family: "Nunito";
+        font-weight: 500;
+        font-size: var(--rem);
+        color: var(--fadedText);
+        span {
+            color: var(--green);
+            font-weight: 600;
+            cursor: pointer;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+.btns {
+    gap: calc(var(--rem) * 1);
+}
+.button {
+    background: var(--bgreen);
+    cursor: pointer;
+    img {
+        padding: calc(var(--rem) * 0.3) calc(var(--rem) * 0.5);
+    }
+}
+.btext {
+    font-family: Nunito;
+    padding: calc(var(--rem) * 0.5) calc(var(--rem) * 1.2);
+    font-size: var(--rem);
+    border-radius: 0 0 var(--rem) 0;
+    font-weight: 600;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    background: linear-gradient(110.51deg, #33353c 7.16%, #1d1e22 95.94%), linear-gradient(0deg, #454957, #454957);
+}
+
+.banners {
+    width: 100%;
+    align-items: flex-end;
+    gap: var(--rem);
+}
+.banner {
+    gap: calc(var(--rem)*.8);
+    background: linear-gradient(
+        94.14deg,
+        rgba(60, 64, 71, 0.48) 0%,
+        rgba(60, 64, 71, 0.48) 0.01%,
+        rgba(50, 53, 60, 0.12) 78.01%
+    );
+    width: 100%;
+    max-width: 280px;
+    min-width: 180px;
+    min-height:calc(var(--rem)*5);
+    height:1%;
+    border-radius: calc(var(--rem)*.3);
+    img{
+        width:19%;
+    }
+    img:nth-child(2){
+        position: relative;
+        top: 5%;
+    }
+
+    h3 {
+        font-family: "Nunito";
+        font-size: calc(var(--rem) * 1.1);
+        font-weight: 700;       
+    }
+}
+
+.line{
+    height: 60%;
+    width: 1.5%;
+    border-radius: 20rem;
+    background: var(--dark);
+}
+
+//Blur effect
+.gBlurEffect{
+    position: absolute;
+    width: 100%;
+    align-items: flex-end;
+    display: flex;
+    gap: calc(var(--rem)*2);
+    filter: blur(600px);
+    .circle{
+            aspect-ratio: 1;
+            width:7%;
+            border-radius: 100%;
+            background: var(--green);
+            box-shadow: 0px 0px 250px -24px rgba(57, 219, 170, 0.8);
+    }
+    .circle:nth-child(1){
+        position: relative;
+        right: 5%;
+    }
+    .circle:nth-child(2){
+        position: relative;
+        right: -2%;
+    }
+}
+//canvas effect
+.canvas{
+    position: absolute;
+    z-index: 1;
+    top: -10%;
+    right: 0%;
+    pointer-events: none;
+}
