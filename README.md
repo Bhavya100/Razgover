@@ -5,7 +5,7 @@ Razgover is a website that connects two strangers in a secure and elegant way. W
 Free To use.
 
 ## Upcoming updates
-- Login and signUp page.
+- Login and signup page.
 - Login management in Backend.
 - Improved User interface
 
@@ -13,14 +13,14 @@ Free To use.
 ![Screenshot image](https://i.ibb.co/QfHps9t/Screenshot-2023-02-05-211415.png)
 
 ## Clone 
-Use this command to clone this template into your PC..
+Use this command to clone this template into your PC
 ```bash
 git clone https://github.com/tanaymishra/Razgover
 ```
 ## Contributing
 
 Contributions are always appreciated!
-No rules..
+No rules
 
 
 ## Authors
@@ -30,9 +30,9 @@ No rules..
 
 ## Feedback
 
-If you have any feedback or query, please reach out to us at tanaymishra2204@gmail.com
+If you have any feedback or queries, please reach out to us at tanaymishra2204@gmail.com
 
 
 ## Tech Stack
 
-**Client:** React, Javascript, SASS and maybe some libraries i forgot..
+**Client:** React, Javascript, SASS, and maybe some libraries I forgot about
